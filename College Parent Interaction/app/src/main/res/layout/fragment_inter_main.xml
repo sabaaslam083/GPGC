@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment2">
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbl"
+            >
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/year"
+                    android:text="Year"
+                    android:textColor="@color/textColor"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edit_year"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:hint="e.g 2012"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/form_submission"
+                    android:text="Forms Date"
+                    android:textColor="@color/textColor"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edit_forms"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:hint="e.g 21 feb to 30 feb"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/fees_submissiion"
+                    android:text="Fees Date"
+                    android:textColor="@color/textColor"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edit_fees"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:hint="e.g 1 jan to 5 jan"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/classes"
+                    android:text="Classes Date"
+                    android:textColor="@color/textColor"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edit_classes"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:hint="e.g 6 jan"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbl"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:background="@color/primary"/>
+            <Button
+                android:id="@+id/view"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:background="@color/primary"/>
+        </LinearLayout>
+
+</RelativeLayout>

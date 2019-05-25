@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/home"
+    />
+        <item
+            android:id="@+id/details"
+            android:title="Admissin Schedule"
+            android:icon="@android:drawable/ic_menu_my_calendar">
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                       <item
+                            android:id="@+id/intermidiate"
+                            android:title="Intermediate"
+                            android:icon="@drawable/intermidiate"/>
+                       <item
+                            android:id="@+id/Graduate"
+                            android:title="Graduate"
+                            android:icon="@drawable/graduate"/>
+                </group>
+
+            </menu>
+        </item>
+
+</menu>

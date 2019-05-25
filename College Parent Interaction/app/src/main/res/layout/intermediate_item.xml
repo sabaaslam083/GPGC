@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbl"
+        android:background="#FFEFD5"
+        android:layout_marginTop="5dp"
+        >
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/year"
+                android:text="Year"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/edit_year"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/form_submission"
+                android:text="Forms Date"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/edit_forms"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/fees_submissiion"
+                android:text="Fees Date"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/edit_fees"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/classes"
+                android:text="Classes Date"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/edit_classes"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

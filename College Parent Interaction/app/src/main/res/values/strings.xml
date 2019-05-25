@@ -1,0 +1,17 @@
+<resources>
+    <string name="open_drawer">OpenDrawer</string>
+    <string name="close_drawer">CloseDrawer</string>
+    <string name="app_name">GPGC</string>
+    <string name="a">* BS IT</string>
+    <string name="b">* BS Urdu</string>
+    <string name="c">* BS English</string>
+    <string name="d">* BS Psychology</string>
+    <string name="e">* BS Islamyat</string>
+    <string name="f">* BS Education</string>
+    <string name="g">* BS History</string>
+    <string name="h">* BS Economics</string>
+    <string name="i">* BS Chemistery</string>
+    <string name="j">* BS Zoolgy</string>
+    <string name="k">* MA Islamyat</string>
+    <string name="detail">College Teachers/Students/Parents click for more detail</string>
+</resources>

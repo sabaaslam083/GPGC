@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B22222</color>
+    <color name="colorPrimaryDark">#A52A2A</color>
+    <color name="colorAccent">#360e0e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#000</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="primary">#B22222</color>
+    <color name="primaryDark">#551B72</color>
+    <color name="student">#FFFFE0</color>
+</resources>

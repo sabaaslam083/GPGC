@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <android.support.design.widget.AppBarLayout
+        xmlns:tools="http://scahemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.v7.widget.Toolbar
+            android:background="@color/primary"
+            app:title="Govt.Post Graduate College"
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <RelativeLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ViewFlipper
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_fliper">
+
+        </ViewFlipper>
+
+        <Button
+            android:drawableTop="@drawable/information"
+            android:drawableTint="@color/white"
+            android:id="@+id/button_genral"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/v_fliper"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/primary"
+            android:fontFamily="sans-serif-medium"
+            android:text="Not college Part!Want admission information?click Here"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_regular"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/button_genral"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/detail"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@color/primary"
+            android:fontFamily="sans-serif-medium"
+            android:drawableTop="@drawable/detail"
+            android:drawableTint="@color/white"/>
+
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
